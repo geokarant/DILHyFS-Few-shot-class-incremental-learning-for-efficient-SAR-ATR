@@ -1,4 +1,4 @@
-## DILHyFS  
+## DILHyFS: Few-shot class incremental learning for efficient SAR-ATR  
 ## Install
 ```
 conda create -n DILHyFS python=3.9
