@@ -1,0 +1,41 @@
+{
+    "prefix": "reproduce",
+    "dataset": "mstar",
+    "few_shot": true,
+    "shuffle": false,
+    "setup": 2,
+    "init_cls": 4,
+    "increment": 1,
+    "portion":1.0,
+    "rotated_angles": [],
+    "model_name": "basic",
+    "early_fusion": false,
+    "device": ["0"],
+    "seed": [1993],
+    "input_dim":224,
+
+    "crop_size": 88,
+    "random_permutation":true,
+    "backbone_ft":true,
+    
+    "backbone_type": "gfnet-h-ti",
+    "finetune": false,
+    "tuned_epoch": 15,
+
+    "optimizer": "sgd",
+    "alpha": 0.0005,
+    "gamma": 0.5,
+    "loss": "focal+center",
+    "init_lr": 0.01,
+    
+    "eq_prot": true,
+    "batch_size":48,
+    "weight_decay":0.0005,
+    "min_lr":0,
+    "ffn_num":64,
+    "vpt_type":"shallow",
+    "use_RP": true,
+    "lda": true,
+    "M": 10000
+}
+
