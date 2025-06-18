@@ -1,12 +1,15 @@
 ## Few-shot class incremental learning for efficient SAR-ATR
 
-Our paper Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition has been accepted for publication in IEEE ICIP 2025.
+Our paper #Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition has been accepted for publication in IEEE ICIP 2025.
+
+The implementation of IEEE ICIP 2025 [paper](https://ieeexplore.ieee.org/document/10838563) **Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition** (You can also read our paper [here](https://arxiv.org/pdf/2505.19565).)
 
 If you use any code of this repo, please consider citing our work:
+```
 
 @article{karantaidis2025few,
   title={Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition},
-  author={Karantaidis, George and Pantsios, Athanasios and Kompatsiaris, Ioannis and Papadopoulos, Symeon},
+  author={Karantaidis, G. and Pantsios, A. and Kompatsiaris, I. and Papadopoulos, S.},
   journal={arXiv preprint arXiv:2505.19565},
   year={2025}
 }
