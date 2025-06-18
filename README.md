@@ -1,4 +1,17 @@
-## DILHyFS: Few-shot class incremental learning for efficient SAR-ATR  
+## Few-shot class incremental learning for efficient SAR-ATR
+
+Our paper Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition has been accepted for publication in IEEE ICIP 2025.
+
+If you use any code of this repo, please consider citing our work:
+
+@article{karantaidis2025few,
+  title={Few-Shot Class-Incremental Learning For Efficient SAR Automatic Target Recognition},
+  author={Karantaidis, George and Pantsios, Athanasios and Kompatsiaris, Ioannis and Papadopoulos, Symeon},
+  journal={arXiv preprint arXiv:2505.19565},
+  year={2025}
+}
+
+
 ## Install
 ```
 conda create -n DILHyFS python=3.9
@@ -44,42 +57,3 @@ We thank the following repos providing helpful components/functions in our work.
 - [PILOT](https://github.com/sun-hailong/LAMDA-PILOT)  
 - [RanPAC](https://github.com/RanPAC/RanPAC/)
 - [GFNet](https://github.com/raoyongming/GFNet)
-
-You should also cite the following:
-
-MSTAR dataset:
-```
-@inproceedings{ross1998standard,
-  title={Standard SAR ATR evaluation experiments using the MSTAR public release data set},
-  author={Ross, T. and Worrell, S. and Velten, V. and Mossing, J. and Bryant, M.},
-  booktitle={Algorithms for synthetic aperture radar imagery V},
-  volume={3370},
-  pages={566--573},
-  year={1998},
-  organization={SPIE}
-}
-```
-OpenSARShip dataset:
-```
-@article{huang2017opensarship,
-  title={OpenSARShip: A dataset dedicated to Sentinel-1 ship interpretation},
-  author={Huang, L. and Liu, B. and Li, B. and Guo, W. and Yu, W. and Zhang, Z. and Yu, W.},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  volume={11},
-  number={1},
-  pages={195--208},
-  year={2017},
-  publisher={IEEE}
-}
-```
-SarAircraft dataset:
-```
-@article{zhirui2023sar,
-  title={SAR-AIRcraft-1.0: High-resolution SAR aircraft detection and recognition dataset},
-  author={Zhirui, W. and Yuzhuo, K. and Xuan, Z. and Yuelei, W. and Ting, Z. and Xian, S.},
-  journal={J. Radars},
-  volume={12},
-  number={4},
-  pages={906--922},
-  year={2023}}
-```
